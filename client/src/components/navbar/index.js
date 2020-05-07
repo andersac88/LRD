@@ -7,7 +7,7 @@ export default function NavigationBar() {
   return (
       <>
     <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="#home">LRD</Navbar.Brand>
+        <Navbar.Brand href="#home">TBD-DDDB</Navbar.Brand>
         <Nav className="mr-auto">
             <Nav.Link href="#home">News</Nav.Link>
             <Nav.Link href="#home">Social Media</Nav.Link>
@@ -17,7 +17,7 @@ export default function NavigationBar() {
      </Navbar>
      <div id="bannerBox">
       <img style={{width: "100%"}} src={Capitol} alt="Capitol Building" />
-      <div id="titleBox"><strong>Low Road Democrats</strong></div>
+      <div id="titleBox"><strong>TBD-DDDB</strong></div>
     </div>
     </>
   );
