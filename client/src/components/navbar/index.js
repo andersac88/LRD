@@ -9,10 +9,10 @@ export default function NavigationBar() {
     <Navbar bg="primary" variant="dark">
         <Navbar.Brand href="#home">TBD-DDDB</Navbar.Brand>
         <Nav className="mr-auto">
-            <Nav.Link href="#home">News</Nav.Link>
-            <Nav.Link href="#home">Social Media</Nav.Link>
-            <Nav.Link href="#features">Donate</Nav.Link>
-            <Nav.Link href="#pricing">Store</Nav.Link>
+            <Nav.Link href="#news">News</Nav.Link>
+            <Nav.Link href="#social_media">Social Media</Nav.Link>
+            <Nav.Link href="#donate">Donate</Nav.Link>
+            <Nav.Link href="#store">Store</Nav.Link>
         </Nav>
      </Navbar>
      <div id="bannerBox">
